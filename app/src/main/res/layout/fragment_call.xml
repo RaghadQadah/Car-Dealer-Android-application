@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/mybutton"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:text="Contact and location Info."
+
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/callus"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/ButtonCall"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="-7dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/phonecall" />
+
+
+    <Button
+        android:id="@+id/ButtonCall"
+        android:layout_width="185dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/ButtonFind"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="415dp"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:text="CALL US"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageButton
+        android:id="@+id/findus"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_alignStart="@+id/callus"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="266dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/location" />
+
+    <Button
+        android:id="@+id/ButtonEmail"
+        android:layout_width="185dp"
+        android:layout_height="58dp"
+        android:background="@drawable/mybutton"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="139dp"
+        android:gravity="center"
+        android:text="Email US"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <ImageButton
+        android:id="@+id/mailus"
+        android:layout_width="76dp"
+        android:layout_height="68dp"
+        android:layout_alignStart="@+id/callus"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="133dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/openemail" />
+
+    <Button
+        android:id="@+id/ButtonFind"
+        android:layout_width="185dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="273dp"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:text="FIND US"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/mobile" />
+
+
+</RelativeLayout>

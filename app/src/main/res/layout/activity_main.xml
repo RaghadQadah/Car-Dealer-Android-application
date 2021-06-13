@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_connect_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp6919802"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/connectToRestButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="176dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/mybutton"
+        android:text="connect"
+        android:textColor="@color/white"
+        android:textColorLink="#5E376D"
+        android:textStyle="bold"
+
+        app:cornerRadius="10dp" />
+
+
+</android.widget.RelativeLayout>

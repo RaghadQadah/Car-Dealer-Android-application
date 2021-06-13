@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_car_menu"
+            android:icon="@drawable/list"
+            android:title="Car Menu" />
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@drawable/ic_orders"
+            android:title="Your reservations" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorites"
+            android:title="Your Favorites" />
+
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/special_offers"
+            android:title="Special Offers" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_call"
+            android:title="Call us or Find us" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_log_out"
+            android:title="Log out" />
+    </group>
+</menu>
